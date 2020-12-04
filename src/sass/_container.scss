@@ -1,0 +1,13 @@
+.container {
+  min-height: 100vh;
+  position: relative;
+  &__movies__list {
+    position: absolute;
+    top: 15%;
+    height: 40rem;
+    left: 15%;
+    right: 12%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

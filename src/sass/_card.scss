@@ -1,0 +1,29 @@
+.card__movie {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  background-color: rosybrown;
+  border-radius: 10px;
+
+  &__img {
+    width: 100%;
+  }
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &--span {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(210, 21, 120);
+  }
+}
